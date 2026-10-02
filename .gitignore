@@ -1,0 +1,29 @@
+# Secrets and local environment files
+.env
+.env.*
+!.env.example
+
+# Python virtual environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# Pipeline caches and generated run outputs
+runs/
+**/cache/
+**/exports/
+
+# Generated few-shot example artifacts
+examples/crops/
+examples/meta.json
+examples/one_shot_answer.json
+examples/one_shot_tile.png
+
+# Local editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

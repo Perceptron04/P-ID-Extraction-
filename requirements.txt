@@ -1,0 +1,6 @@
+pillow
+numpy
+google-genai
+python-dotenv
+opencv-python-headless
+openpyxl
